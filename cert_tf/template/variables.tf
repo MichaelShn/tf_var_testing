@@ -2,6 +2,6 @@ variable "hostname" {
   type = string
 }
 
-variable "provider" {
+variable "aprovider" {
   type = string
 }
