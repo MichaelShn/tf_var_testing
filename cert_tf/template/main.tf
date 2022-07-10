@@ -10,7 +10,7 @@ terraform {
 
 data "template_file" "template" {
   template = <<EOF
-Test message: $${message}
+Updated message: $${message}
 EOF
   vars = {
     message = var.hostname
